@@ -7,7 +7,7 @@ const App = () => {
     <Center p={5} flexDir={'column'}>
       <Heading>Vite ChakraUI template</Heading>
       <Image src={ReactIcon} width={100} height={100} />
-      <Sample />
+      <Sample text={'Sample text'} />
     </Center>
   );
 };
